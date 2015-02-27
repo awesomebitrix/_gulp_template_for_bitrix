@@ -6,15 +6,16 @@ html(lang="ru")
 		//- meta(name="viewport", content="width=device-width, initial-scale=1.0")
 		link(rel="stylesheet", href="styles/reset.css")
 		link(rel="stylesheet", href="styles/grid.css")
-		link(rel="stylesheet", href="scripts/vendor/fontawesome/css/font-awesome.min.css")
 		link(rel="stylesheet", href="styles.css")
 		link(rel="stylesheet", href="template_styles.css")
-		script(src='scripts/vendor/jquery/dist/jquery.min.js')
-		script(src='scripts/vendor/flexslider/jquery.flexslider-min.js')
-		script(src='scripts/local/main.js')
 	body
 		section.main_wrap
 			header.main_header
 				.container
+					.row
+						.col_md_12
+			main.main_content
 			footer.main_footer
-				.container
+		//- script(src='scripts/vendor/jquery/dist/jquery.min.js')
+		//- script(src='scripts/vendor/flexslider/jquery.flexslider-min.js')
+		script(src='scripts/local/main.js')
